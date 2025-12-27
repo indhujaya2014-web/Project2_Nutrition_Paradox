@@ -26,9 +26,9 @@ Data is sourced via the WHO API for four key indicators:
     * Combine into two master DataFrames: df_obesity and df_malnutrition.
     * Filter for the timeframe: 2012 – 2022.
 2. Cleaning & Feature Engineering
-	**Standardization**: Mapping TimeDim to Year, Dim1 to Gender, and NumericValue to Mean_Estimate.
-    **Geography**: Use pycountry to convert ISO Alpha-3 codes into full country names.
-    **Feature Creation**:
+	* **Standardization**: Mapping TimeDim to Year, Dim1 to Gender, and NumericValue to Mean_Estimate.
+    * **Geography**: Use pycountry to convert ISO Alpha-3 codes into full country names.
+    * **Feature Creation**:
     	* **CI_Width**: Calculated as $UpperBound - LowerBound$.
     	* **Obesity Level**: Categorized as High ($\ge 30$), Moderate ($25–29.9$), or Low ($< 25$).
     	* **Malnutrition Level**: Categorized as High ($\ge 20$), Moderate ($10–19.9$), or Low ($< 10$).
