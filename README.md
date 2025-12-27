@@ -19,24 +19,24 @@ Data is sourced via the WHO API for four key indicators:
 * **Underweight (Adults)**: BMI < 18.5 (Dataset: NCD_BMI_18C).
 * **Thinness (Children)**: BMI -2SD from median (Dataset: NCD_BMI_MINUS2C).
 
-⚙️ Project WorkflowStep 
-1: Data Collection & Preprocessing
+## ⚙️ Project WorkflowStep 
+1. Data Collection & Preprocessing
     * Load 4 datasets from WHO API endpoints.
 	* Assign age_group ("Adult" vs "Child/Adolescent").
     * Combine into two master DataFrames: df_obesity and df_malnutrition.
     * Filter for the timeframe: 2012 – 2022.
-2: Cleaning & Feature Engineering
+2. Cleaning & Feature Engineering
 	**Standardization**: Mapping TimeDim to Year, Dim1 to Gender, and NumericValue to Mean_Estimate.
     **Geography**: Use pycountry to convert ISO Alpha-3 codes into full country names.
     **Feature Creation**:
     	* **CI_Width**: Calculated as $UpperBound - LowerBound$.
     	* **Obesity Level**: Categorized as High ($\ge 30$), Moderate ($25–29.9$), or Low ($< 25$).
     	* **Malnutrition Level**: Categorized as High ($\ge 20$), Moderate ($10–19.9$), or Low ($< 10$).
-3: Exploratory Data Analysis (EDA)Using Matplotlib and Seaborn to identify:
+3. Exploratory Data Analysis (EDA)Using Matplotlib and Seaborn to identify:
     * Data shape, structure, and missing values.
     * Distribution of Mean_Estimate and CI_Width.
     * Regional trends and gender-based disparities.
-4: SQL Implementation:
+4. SQL Implementation:
     * Establish connection (e.g., mysql.connector or sqlite3).
     * Create tables: obesity and malnutrition.
     * Data Insertion: Migrating cleaned DataFrames into SQL tables using .iterrows() with batch commits to ensure performance.
