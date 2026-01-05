@@ -77,10 +77,10 @@ project includes 25 SQL queries focused on:
 The "Nutrition Paradox" refers to the complex global health scenario where high rates of overnutrition (obesity) and undernutrition (malnutrition) exist within the same regions, countries, and sometimes the same households. This project utilized WHO data from 2012 to 2022 to map these disparities across adults and children.
 
 ## 📌 Key Insights
-	*  **Africa & South-East Asia** face persistent malnutrition challenges
-	*  High-income regions show consistently rising obesity
-	* **Female obesity** exceeds male in many countries
-	* **Children** show **dual burden** (malnutrition + rising obesity)
-	* High CI Width regions indicate unreliable reporting
+  * **Africa & South-East Asia** face persistent malnutrition challenges
+  * High-income regions show consistently rising obesity
+  * **Female obesity** exceeds male in many countries
+  * **Children** show **dual burden** (malnutrition + rising obesity)
+  * High CI Width regions indicate unreliable reporting
 
 
