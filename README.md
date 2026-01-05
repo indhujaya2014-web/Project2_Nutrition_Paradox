@@ -72,3 +72,15 @@ project includes 25 SQL queries focused on:
   * Urgent Intervention: Identifying regions with "Double Burden" where both indicators are high.
   * Data Reliability: Using CI_Width to flag regions where data reporting is inconsistent or lacks precision.
   * Vulnerability: Pinpointing specific age groups or genders most affected by the nutrition paradox.
+
+## ⚖️ The Nutritional Paradox: Summary Analysis
+The "Nutrition Paradox" refers to the complex global health scenario where high rates of overnutrition (obesity) and undernutrition (malnutrition) exist within the same regions, countries, and sometimes the same households. This project utilized WHO data from 2012 to 2022 to map these disparities across adults and children.
+
+## 📌 Key Insights
+•	**Africa & South-East Asia** face persistent malnutrition challenges
+•	High-income regions show consistently rising obesity
+•	**Female obesity** exceeds male in many countries
+•	**Children** show **dual burden** (malnutrition + rising obesity)
+•	High CI Width regions indicate unreliable reporting
+
+
