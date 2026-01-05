@@ -47,7 +47,7 @@ project includes 25 SQL queries focused on:
   * Malnutrition: African region trends, year-over-year changes in Nigeria/Brazil, and countries with increasing malnutrition.
   * Combined Analysis: Side-by-side regional comparisons and identifying countries where obesity is rising while malnutrition is falling.
 
-## 📊 Visualizations & Insights
+## 📊 Visualizations
 **Power BI Dashboard / Streamlit App**
 	Global Trends: Line charts showing the trajectory of health indicators.
 	Risk Maps: Interactive choropleth maps highlighting high-risk nations.
